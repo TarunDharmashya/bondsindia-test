@@ -1,0 +1,44 @@
+body{
+  background-color: lightblue;
+  padding: 0;
+  margin: 0;
+}
+h1{
+  text-align: center;
+}
+
+.left-container{
+
+  background-color: lightgrey;
+  margin:0;
+}
+.card1,.card2,.card3,.card4{
+  border-radius: 4px;
+  margin: 4px;
+  padding: 1vh;
+}
+.card1{
+  background-color: white;
+}
+.card2{
+  background-color: lightpink;
+}
+.card3{
+  background-color: skyblue;
+}
+.card4{
+  background-color: lightgreen;
+}
+.right-container{
+  background-color: orange;
+  border-radius: 4px;
+}
+.rightblock{
+  margin: 4px;
+  padding: 1vh;
+}
+@media (max-width:576px) {
+  .left-container,.right-container{
+    width: 100%;
+  }
+}
